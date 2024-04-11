@@ -16,4 +16,9 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.28" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\RetroCassette.Application\RetroCassette.Application.csproj" />
+    <ProjectReference Include="..\RetroCassette.Infrastructure\RetroCassette.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
