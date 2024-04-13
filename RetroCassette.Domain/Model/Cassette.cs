@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RetoroCassette.Domain.Model
+namespace RetroCassette.Domain.Model
 {
     public class Cassette
     {
@@ -12,10 +13,10 @@ namespace RetoroCassette.Domain.Model
         public string MovieTitle { get; set; }
         public DateTime ReleaseDate { get; set; }
         public int MovieLength { get; set; }
-        public Director DirectorOfMovie { get; set; }
-        public Genre GenreOfMovie { get; set; }
+        public virtual Director DirectorOfMovie { get; set; }
         public bool Availability { get; set; }
         public string Description { get; set; }
         public string Language { get; set; }
+        public string CassettePhoto { get; set; }
     }
 }

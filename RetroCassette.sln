@@ -7,17 +7,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RetroCassette", "RetroCasse
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{91DA8244-ECF5-48A2-87C8-C6048D748DA0}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{6317B543-D9EA-4D94-BD80-3DBDEB7D69CA}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{3D8B4BBD-2AA4-480F-B8CF-92A1268F00C2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{ECD0777F-E911-49E1-A4E7-4344873FD7F2}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RetroCassette.Application", "RetroCassette.Application\RetroCassette.Application.csproj", "{A76E6A87-5727-40FB-99F1-78E8276683BB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RetroCassette.Domain", "RetoroCassette.Domain\RetroCassette.Domain.csproj", "{A275A9D4-C925-4AF8-9C7F-83A68D11EA21}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RetroCassette.Infrastructure", "RetroCassette.Infrastructure\RetroCassette.Infrastructure.csproj", "{FFC5A01E-F18F-49BC-9063-3A660EE03AA1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{49B35B92-7472-4DEA-B11C-DCED4E09AD09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RetroCassette.Domain", "RetroCassette.Domain\RetroCassette.Domain.csproj", "{36D4976C-CE05-43EE-BAF7-D876BDDF3F5B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,14 +33,14 @@ Global
 		{A76E6A87-5727-40FB-99F1-78E8276683BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A76E6A87-5727-40FB-99F1-78E8276683BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A76E6A87-5727-40FB-99F1-78E8276683BB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A275A9D4-C925-4AF8-9C7F-83A68D11EA21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A275A9D4-C925-4AF8-9C7F-83A68D11EA21}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A275A9D4-C925-4AF8-9C7F-83A68D11EA21}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A275A9D4-C925-4AF8-9C7F-83A68D11EA21}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FFC5A01E-F18F-49BC-9063-3A660EE03AA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FFC5A01E-F18F-49BC-9063-3A660EE03AA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FFC5A01E-F18F-49BC-9063-3A660EE03AA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FFC5A01E-F18F-49BC-9063-3A660EE03AA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36D4976C-CE05-43EE-BAF7-D876BDDF3F5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36D4976C-CE05-43EE-BAF7-D876BDDF3F5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36D4976C-CE05-43EE-BAF7-D876BDDF3F5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36D4976C-CE05-43EE-BAF7-D876BDDF3F5B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,8 +48,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{F9293F87-786D-4FE4-A484-385139D4AC3F} = {ECD0777F-E911-49E1-A4E7-4344873FD7F2}
 		{A76E6A87-5727-40FB-99F1-78E8276683BB} = {91DA8244-ECF5-48A2-87C8-C6048D748DA0}
-		{A275A9D4-C925-4AF8-9C7F-83A68D11EA21} = {6317B543-D9EA-4D94-BD80-3DBDEB7D69CA}
 		{FFC5A01E-F18F-49BC-9063-3A660EE03AA1} = {3D8B4BBD-2AA4-480F-B8CF-92A1268F00C2}
+		{36D4976C-CE05-43EE-BAF7-D876BDDF3F5B} = {49B35B92-7472-4DEA-B11C-DCED4E09AD09}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8C98091E-61B5-4CE8-855D-0E36360E305B}
