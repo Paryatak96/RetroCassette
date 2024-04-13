@@ -1,4 +1,5 @@
-﻿using RetoroCassette.Application.Mapping;
+﻿using AutoMapper;
+using RetoroCassette.Application.Mapping;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,5 +14,11 @@ namespace RetroCassette.Application.ViewModels.Cassette
         public string MovieTitle { get; set; }
         public string Language { get; set; }
         public string CassettePhoto { get; set; }
+
+
+        public void Mapping(Profile profile)
+        {
+            profile.CreateMap<RetroCassette.Domain.Model.Cassette, CassetteForListVm>();
+        }
     }
 }
